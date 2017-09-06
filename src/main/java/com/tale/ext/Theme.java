@@ -71,7 +71,7 @@ public final class Theme {
         if(null != value){
             p = value.toString();
         }
-        return p + " - " + Commons.site_option("site_title", "Tale 博客");
+        return Commons.site_option("site_title", "Tale 博客");
     }
 
     /**

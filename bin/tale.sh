@@ -3,13 +3,13 @@
 # url:https://github.com/otale/scripts
 
 
-# Usage: sh tale.sh start "-Xms128m -Xmx128m"
+# Usage: sh tale.sh start "-Xms256m -Xmx256m"
 # Usage: sh tale.sh stop
 # Usage: sh tale.sh status
 # Usage: sh tale.sh reload 10
 # Usage: sh tale.sh log
 
-env_args="-Xms128m -Xmx128m"
+env_args="-Xms512m -Xmx512m"
 sleeptime=0
 arglen=$#
 
